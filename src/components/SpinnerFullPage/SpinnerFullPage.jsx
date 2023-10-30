@@ -1,4 +1,4 @@
-import Spinner from './Spinner'
+import { Spinner } from '..'
 import styles from './SpinnerFullPage.module.css'
 
 export default function SpinnerFullPage() {
