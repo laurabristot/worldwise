@@ -1,5 +1,6 @@
 export { default as AppLayout } from './AppLayout/AppLayout.jsx'
 export { default as Homepage } from './Homepage/Homepage.jsx'
+export { default as Login } from './Login/Login.jsx'
 export { default as PageNotFound } from './PageNotFound/PageNotFound.jsx'
 export { default as Pricing } from './Pricing/Pricing.jsx'
 export { default as Product } from './Product/Product.jsx'
