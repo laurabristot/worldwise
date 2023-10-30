@@ -1,4 +1,5 @@
 export { default as AppNav } from './AppNav/AppNav.jsx'
+export { default as City } from './City/City.jsx'
 export { default as CityItem } from './CityItem/CityItem.jsx'
 export { default as CityList } from './CityList/CityList.jsx'
 export { default as CountryItem } from './CountryItem/CountryItem.jsx'
