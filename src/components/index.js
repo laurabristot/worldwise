@@ -1,6 +1,8 @@
 export { default as AppNav } from './AppNav/AppNav.jsx'
 export { default as CityItem } from './CityItem/CityItem.jsx'
 export { default as CityList } from './CityList/CityList.jsx'
+export { default as CountryItem } from './CountryItem/CountryItem.jsx'
+export { default as CountryList } from './CountryList/CountryList.jsx'
 export { default as Logo } from './Logo/Logo.jsx'
 export { default as Map } from './Map/Map.jsx'
 export { default as Message } from './Message/Message.jsx'
