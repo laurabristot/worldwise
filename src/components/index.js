@@ -1,3 +1,5 @@
 export { default as AppNav } from './AppNav/AppNav.jsx'
 export { default as Logo } from './Logo/Logo.jsx'
+export { default as Map } from './Map/Map.jsx'
 export { default as PageNav } from './PageNav/PageNav.jsx'
+export { default as Sidebar } from './Sidebar/Sidebar.jsx'
