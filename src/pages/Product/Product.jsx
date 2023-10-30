@@ -1,4 +1,4 @@
-import { PageNav } from '../components'
+import { PageNav } from '../../components'
 
 export default function Product() {
   return (
