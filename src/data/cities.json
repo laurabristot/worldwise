@@ -1,112 +1,52 @@
 {
   "cities": [
     {
+      "cityName": "Orlando",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2015-02-09T21:58:21.000Z",
+      "notes": "Disney com intercultural 😍",
+      "position": {
+        "lat": "28.543513003567337",
+        "lng": "-81.37573242187501"
+      },
+      "id": 1
+    },
+    {
+      "cityName": "Orlando",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2018-06-14T23:01:01.000Z",
+      "notes": "disney com mae, mig e simone",
+      "position": {
+        "lat": "28.536274512989916",
+        "lng": "-81.36474609375001"
+      },
+      "id": 2
+    },
+    {
       "cityName": "Lisbon",
       "country": "Portugal",
       "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "date": "2023-03-22T23:01:44.000Z",
+      "notes": "Lisboa com vini para conhecer a bliss",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": "38.70694605159386",
+        "lng": "-9.136505126953127"
       },
-      "id": 73930385
+      "id": 3
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Aliaga",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-31T21:20:38.895Z",
-      "notes": "",
-      "position": {
-        "lat": "40.588928169693745",
-        "lng": "-0.6756591796875001"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Alcaniz",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-31T21:23:25.169Z",
-      "notes": "",
-      "position": {
-        "lat": "41.008920735004885",
-        "lng": "-0.05493164062500001"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Florianopolis",
+      "cityName": "Rio de Janeiro",
       "country": "Brazil",
       "emoji": "🇧🇷",
-      "date": "2023-10-31T21:23:35.768Z",
-      "notes": "",
+      "date": "2022-09-06T23:02:39.000Z",
+      "notes": "ROCK IN RIOOO com isadora, leticia e eduarda",
       "position": {
-        "lat": "-27.595934774495042",
-        "lng": "-48.5540771484375"
+        "lat": "-22.91286328803375",
+        "lng": "-43.209571838378906"
       },
-      "id": 98443200
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-31T21:26:19.771Z",
-      "notes": "",
-      "position": {
-        "lat": "40.38839687388361",
-        "lng": "-3.6914062500000004"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "Mentrida",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-31T21:26:19.771Z",
-      "notes": "",
-      "position": {
-        "lat": "40.25856876391262",
-        "lng": "-4.147338867187501"
-      },
-      "id": 98443202
-    },
-    {
-      "cityName": "Curitiba",
-      "country": "Brazil",
-      "emoji": "🇧🇷",
-      "date": "2023-10-31T21:29:57.214Z",
-      "notes": "",
-      "position": {
-        "lat": "-25.391179281675818",
-        "lng": "-48.94683837890625"
-      },
-      "id": 98443203
+      "id": 4
     }
   ]
 }
