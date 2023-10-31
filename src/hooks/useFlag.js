@@ -4,7 +4,8 @@ const useFlagEmojiToPNG = (flag) => {
   const [flagImage, setFlagImage] = useState(null)
 
   useEffect(() => {
-    const countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
+    if (!flag) return
+    const countryCode = Array?.from(flag, (codeUnit) => codeUnit.codePointAt())
       .map((char) => String.fromCharCode(char - 127397).toLowerCase())
       .join('')
 

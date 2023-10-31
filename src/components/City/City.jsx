@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { BackButton, Spinner } from '..'
 import { useCities } from '../../contexts/CitiesContext'
+import useFlagEmojiToPNG from '../../hooks/useFlag'
 import styles from './City.module.css'
 
 const formatDate = (date) =>
@@ -16,6 +17,7 @@ export default function City() {
   const { id } = useParams()
   const { getCity, currentCity, isLoading } = useCities()
   const { cityName, emoji, date, notes } = currentCity
+  const flagImage = useFlagEmojiToPNG(emoji)
 
   useEffect(() => {
     getCity(id)
@@ -28,7 +30,14 @@ export default function City() {
       <div className={styles.row}>
         <h6>City name</h6>
         <h3>
-          <span>{emoji}</span> {cityName}
+          <span className={styles.emoji}>
+            {flagImage ? (
+              <img src={flagImage.src} alt={flagImage.alt} />
+            ) : (
+              emoji
+            )}
+          </span>
+          {cityName}
         </h3>
       </div>
 
