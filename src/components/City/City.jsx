@@ -21,7 +21,7 @@ export default function City() {
 
   useEffect(() => {
     getCity(id)
-  }, [id])
+  }, [id, getCity])
 
   if (isLoading) return <Spinner />
 
